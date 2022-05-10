@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="contwrap">
+            <h1 id="title">Add Info</h1>
+            <form onsubmit="formValidation()" method="post" id="addEntry">
+                <label for="firstname" class="labels">First Name:</label>
+                <input type="text" name="firstname" placeholder="Insert your first name" class="getEntry" id="firstName"><br>
+
+                <label for="lastname" class="labels">Last Name:</label> 
+                <input type="text" name="lastname" placeholder="Insert your last name" class="getEntry" id="lastName"><br>
+
+                <label for="number" class="labels">Number:</label> 
+                <input type="text" name="number" placeholder="Insert your mobile number" class="getEntry" id="number"><br>
+                
+                <br>
+                <input type="submit" value="Submit" class="btns">
+            </form>
+
+            
+            <button onClick="window.location.href = './php/disp_data.php'" class="btns">View Data</button>
+
+            <p id="creds">by pes18fan, 2022</p>
+        </div>       
+    </div>
+
+    <script src="formValidation.js"></script>
+</body>
+</html>

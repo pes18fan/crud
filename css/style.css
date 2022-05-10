@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: rgb(51, 51, 51);
+    color: rgb(211, 216, 216);
+}
+
+#container {
+    margin: 2rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+}
+
+#contwrap {
+    background: #d8d8d8;
+    padding: 3rem;
+    color: #333;
+    border-radius: 7%;
+}
+
+#tableContainer {
+    margin: 2rem auto;
+    max-width: 70rem;
+    padding: 2rem;
+}
+
+#title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem auto;
+    user-select: none;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(157, 190, 190);
+}
+
+td {
+    height: 4.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#dataModBtns {
+    display: flex; 
+    justify-content: center;
+}
+
+.labels {
+    font-size: 1.5rem;
+}
+
+.getEntry {
+    height: 4rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    border-radius: 7%;
+}
+
+.actionButton {
+    display: block;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 1rem;
+    background: linear-gradient(rgb(27, 134, 221), rgb(43, 226, 202));
+    cursor: pointer;
+    border-radius: 10%;
+    user-select: none;
+}
+
+.actionButton:hover {
+    background: linear-gradient(rgb(42, 223, 199), #36a9df);
+}
+
+.btns {
+    display: block;
+    width: 8rem;
+    height: 3.5rem;
+    margin: 1rem auto;
+    background: linear-gradient(rgb(27, 134, 221), rgb(43, 226, 202));
+    cursor: pointer;
+    border-radius: 10%;
+    user-select: none;
+}
+
+.btns:hover {
+    background: linear-gradient(rgb(42, 223, 199), #36a9df);
+}
+
+.altBtns {
+    display: block;
+    width: 10rem;
+    height: 3.5rem;
+    margin: 1rem auto;
+    background: linear-gradient(rgb(27, 134, 221), rgb(43, 226, 202));
+    cursor: pointer;
+    border-radius: 10%;
+    user-select: none;
+}
+
+.altBtns:hover {
+    background: linear-gradient(rgb(42, 223, 199), #36a9df);
+}
+
+#creds {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: 'JetBrains Mono', monospace;
+}
+
+/* by pes18fan, 2022 */
