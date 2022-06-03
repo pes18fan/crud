@@ -1,5 +1,5 @@
 # sql-data-manager
 
-A simple web app capable of using SQL to store data entered through a form.
+A CRUD app for storing data entered through a HTML form.
 
 Written as part of a college project.
